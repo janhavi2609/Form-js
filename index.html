@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+	    <!-- Linking the font -->
+	    <link rel="preconnect" href="https://fonts.googleapis.com">
+	    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+
+	    <link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+
+		<title>Customized TShirts</title>
+	</head>
+
+	<body>
+		<div class="heading">
+			<div class="shirtpic">
+				<img src="Images/shirt1.png">
+			</div>
+			<div class="title">
+				<h1>Customized T-Shirts</h1>
+			</div>
+			<div class="shirtpic">
+				<img src="Images/shirt2.png">
+			</div>
+		</div>
+
+		<br>
+		<form>
+			<fieldset>
+				<legend>Place your order</legend>
+
+				<table align="center">
+
+					<tr>
+						<td>Name<br>
+							<input type = "text" id="namey" placeholder="Jane Doe" size=40></input><br><br>
+						</td>
+					</tr>
+
+					<tr>
+						<td>Email<br>
+							<input type = "text" id="email" name= "Email" placeholder="jane.doe@gmail.com" size=40></input><br><br>
+						</td>
+					</tr>
+
+					<tr>
+						<td>Address<br>
+							<input type = "text" id="address" name= "Address" placeholder="Address" size=40></input><br><br>
+						</td>
+					</tr>
+
+					<tr>
+						<td>Tagline<br>
+							<input type = "text" id="tagline" name= "Tagline" placeholder="You glow girl!" size=40></input><br><br>
+						</td>
+					</tr>
+
+					<tr>
+						<td>Delivery Date<br>
+							<input type = "date" id="deldate" name= "Date"></input><br><br></td>
+					</tr>
+
+					<tr>
+						<td>Choose your size<br>
+							<input type = "radio" name= "Size" value= "XS"></input>XS
+							<input type = "radio" name= "Size" value= "S"></input>S
+							<input type = "radio" name= "Size" value= "M"></input>M
+							<input type = "radio" name= "Size" value= "L"></input>L
+							<input type = "radio" name= "Size" value= "XL"></input>XL<br><br>
+						</td>
+					</tr>
+
+
+					<!-- <tr>
+						<td><br><input type="button" value = "SUBMIT" onclick="alert('Your order is placed!')"></td>
+						<td><br><input type="reset" value="RESET"></td>
+					</tr> -->
+				</table>
+			</fieldset>
+			<div class="formbutton">
+				<div class="butt">
+					<input class="butt" type="button" value = "Submit" onclick="ValidateEmail();">
+				</div>
+				<div class="butt">
+					<input class="butt" type="reset" value="Reset">
+				</div>
+			</div>
+		</form>
+		<script src="javas.js"></script>
+	</body>
+</html>

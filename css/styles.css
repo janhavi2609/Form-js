@@ -1,0 +1,85 @@
+body{
+	font-family: 'Poppins', sans-serif;
+	background-color: #DFEEEB;
+}
+
+/*Shirt Title*/
+
+.heading{
+	display: flex;
+	background-color: #3A7765;
+	padding-top: 2%;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+.shirtpic img{
+	width: 250px;
+	height: 200px;
+	margin: auto;
+}
+
+.title{
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+	color: whitesmoke;
+	font-weight: 500;
+  	font-size: 50px;
+  	margin: auto;
+}
+
+/*Place your order*/
+
+fieldset{
+	border-color: #3A7765;
+	border-width: 3px;
+	border-radius: 30px;
+}
+
+legend{
+	color: #3A7765;
+	font-size: 40px;
+	font-weight: 700;
+}
+
+table{
+	font-size: 27px;
+	font-weight: 600;
+}
+
+input[type=text]{
+	background-color: #3A7765;
+	color: white;
+	opacity: 0.35;
+	height: 40px;
+	border-width: 1.5px;
+	border-color: black;
+	border-radius: 15px;
+	padding: 10px;
+	font-size: 20px;
+}
+
+::placeholder{
+	color: white;
+}
+
+
+/*Buttons submit and reset*/
+.formbutton{
+	display: flex;
+	padding: 2%;
+}
+
+.butt{
+	margin: auto;
+	background-color: #3A7765;
+	border: none;
+	border-radius: 12px;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: center;
+	font-size: 25px;
+	font-weight: 700;
+}
